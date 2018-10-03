@@ -1,0 +1,190 @@
+My job is started
+  this_mpi_proc =            0 \n
+ 
+************************************************
+    WELCOME TO PARTIT - Mesh Partioner    
+************************************************
+ 
+  this_mpi_proc =            1 \n
+ 
+************************************************
+    WELCOME TO PARTIT - Mesh Partioner    
+************************************************
+ 
+  this_mpi_proc =            2 \n
+ 
+************************************************
+    WELCOME TO PARTIT - Mesh Partioner    
+************************************************
+ 
+  this_mpi_proc =            3 \n
+ 
+************************************************
+    WELCOME TO PARTIT - Mesh Partioner    
+************************************************
+ 
+ Reading input file 
+ m6.plt                                                                         
+                      
+ Reading input file 
+ m6.plt                                                                         
+                      
+ Reading input file 
+ m6.plt                                                                         
+                      
+ Reading input file 
+ m6.plt                                                                         
+                      
+  FILEEXISTS =  T
+  FILEEXISTS =  T
+  FILEEXISTS =  T
+  FILEEXISTS =  T
+ File m6.plt opened...
+ File m6.plt opened...
+ 
+Elements         :  245421
+Nodes            :   44573
+ 
+Elements         :  245421
+Nodes            :   44573
+Boundary faces   :   16178
+Hexahedra        :       0
+Prisms           :       0
+Pyramids         :       0
+Tetrahedra       :  245421
+Triangular faces :   16178
+Rectangular faces:       0
+Number of edges  :       0
+ 
+Boundary faces   :   16178
+Hexahedra        :       0
+Prisms           :       0
+Pyramids         :       0
+Tetrahedra       :  245421
+Triangular faces :   16178
+Rectangular faces:       0
+Number of edges  :       0
+ 
+ File m6.plt opened...
+ 
+Elements         :  245421
+Nodes            :   44573
+Boundary faces   :   16178
+Hexahedra        :       0
+Prisms           :       0
+Pyramids         :       0
+Tetrahedra       :  245421
+Triangular faces :   16178
+Rectangular faces:       0
+Number of edges  :       0
+ 
+ Reading element data...
+ Reading element data...
+ Reading element data...
+ Reading coordinate data...
+  
+ Finished reading the input file ...
+  
+  Partitioning the mesh 
+ nElem_global    =       245421           0           4
+ elem_num_start =            1           0           4
+ elem_num_end   =        61355           0           4
+ nElem_local    =        61355           0           4
+           0       61355      122710      184065      245421
+  Building eptr & eind arrays            0
+  Before Metis 
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+ File m6.plt opened...
+ 
+Elements         :  245421
+Nodes            :   44573
+Boundary faces   :   16178
+Hexahedra        :       0
+Prisms           :       0
+Pyramids         :       0
+Tetrahedra       :  245421
+Triangular faces :   16178
+Rectangular faces:       0
+Number of edges  :       0
+ 
+ Reading element data...
+ Reading coordinate data...
+  
+ Finished reading the input file ...
+  
+  Partitioning the mesh 
+ nElem_global    =       245421           1           4
+ elem_num_start =        61356           1           4
+ elem_num_end   =       122710           1           4
+ nElem_local    =        61355           1           4
+           0       61355      122710      184065      245421
+  Building eptr & eind arrays            1
+  Before Metis 
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+ Reading coordinate data...
+  
+ Finished reading the input file ...
+  
+  Partitioning the mesh 
+ nElem_global    =       245421           2           4
+ elem_num_start =       122711           2           4
+ elem_num_end   =       184065           2           4
+ nElem_local    =        61355           2           4
+           0       61355      122710      184065      245421
+  Building eptr & eind arrays            2
+  Before Metis 
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+ Reading coordinate data...
+  
+ Finished reading the input file ...
+  
+  Partitioning the mesh 
+ nElem_global    =       245421           3           4
+ elem_num_start =       184066           3           4
+ elem_num_end   =       245421           3           4
+ nElem_local    =        61356           3           4
+           0       61355      122710      184065      245421
+  Building eptr & eind arrays            3
+  Before Metis 
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+  0.1000000      0.1000000      0.1000000      0.1000000      0.1000000    
+  After Metis 
+  After Metis 
+  After Metis 
+  After Metis 
+  After Metis 
+ Writing VTK file
+  After Metis 
+ Writing VTK file
+  After Metis 
+ Writing VTK file
+  After Metis 
+ Writing VTK file
+ Deallocating the memory
+  
+  
+ Program is successful
+  
+  
+ Deallocating the memory
+  
+  
+ Program is successful
+  
+  
+ Deallocating the memory
+  
+  
+ Program is successful
+  
+  
+ Deallocating the memory
+  
+  
+ Program is successful
+  
+  
+My job has finished

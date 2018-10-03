@@ -1,0 +1,11 @@
+module purge
+module load hpcw
+module load compiler/intel/2018/3
+module load mpi/intel/2018/3
+
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/app/libraries/impi/4.1.3.045/lib64
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/s.engkadac/mylibs/parmetis-4.0.3-install/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/app/libraries/petsc/3.7.5/el6/AVX/intel-16.0/intel-5.1/lib
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/app/libraries/petsc/3.7.5/el6/SSE4.2/intel-16.0/intel-5.1/lib
+
